@@ -7,7 +7,7 @@
       <!-- 用插槽来接受icon -->
       <slot name="icon"></slot>
     </div>
-    <div class=" hidden ml-4 w-16  text-xl xl:block" :class="textClasses">
+    <div class=" hidden ml-4   text-xl xl:block w-max" :class="textClasses">
       <!-- 用插槽来接受 导航名 -->
       <slot name="name"></slot>
     </div>

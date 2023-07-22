@@ -12,34 +12,85 @@
     </div>
     <div class="mt-2 space-y-3">
       <SidebarLeftTab active>
-      <template #icon>
-        <HomeIcon />
-      </template>
-      <template #name> 首页 </template>
-    </SidebarLeftTab>
-    <SidebarLeftTab active>
-      <template #icon>
-        <HomeIcon />
-      </template>
-      <template #name> 首页 </template>
-    </SidebarLeftTab>
-    <SidebarLeftTab active>
-      <template #icon>
-        <HomeIcon />
-      </template>
-      <template #name> 首页 </template>
-    </SidebarLeftTab>
-    <SidebarLeftTab active>
-      <template #icon>
-        <HomeIcon />
-      </template>
-      <template #name> 首页 </template>
-    </SidebarLeftTab>
+                <template v-slot:icon>
+                    <HomeIcon />
+                </template>
+                <template v-slot:name>
+                    首页
+                </template>
+            </SidebarLeftTab>
+
+            <SidebarLeftTab>
+                <template v-slot:icon>
+                    <HashtagIcon />
+                </template>
+                <template v-slot:name>
+                    Explore
+                </template>
+            </SidebarLeftTab>
+
+
+            <SidebarLeftTab>
+                <template v-slot:icon>
+                    <BellIcon />
+                </template>
+                <template v-slot:name>
+                    Notifications
+                </template>
+            </SidebarLeftTab>
+
+
+            <SidebarLeftTab>
+                <template v-slot:icon>
+                    <InboxIcon />
+                </template>
+                <template v-slot:name>
+                    Messages
+                </template>
+            </SidebarLeftTab>
+
+            <SidebarLeftTab>
+                <template v-slot:icon>
+                    <BookmarkIcon />
+                </template>
+                <template v-slot:name>
+                    Bookmarks
+                </template>
+            </SidebarLeftTab>
+
+
+            <SidebarLeftTab>
+                <template v-slot:icon>
+                    <DocumentTextIcon />
+                </template>
+                <template v-slot:name>
+                    Lists
+                </template>
+            </SidebarLeftTab>
+
+
+            <SidebarLeftTab>
+                <template v-slot:icon>
+                    <UserIcon />
+                </template>
+                <template v-slot:name>
+                    Profile
+                </template>
+            </SidebarLeftTab>
+
+            <SidebarLeftTab>
+                <template v-slot:icon>
+                    <DotsCircleHorizontalIcon />
+                </template>
+                <template v-slot:name>
+                    More
+                </template>
+            </SidebarLeftTab>
     </div>
   </div>
 </template>
 
 <script setup>
-import { HomeIcon } from "@heroicons/vue/solid";
+import { HomeIcon, HashtagIcon, BellIcon, InboxIcon, BookmarkIcon, DocumentTextIcon, UserIcon, DotsCircleHorizontalIcon, PencilIcon, ChevronDownIcon } from "@heroicons/vue/outline"
 const { defaultTransition } = useTailwindConfig();
 </script>
