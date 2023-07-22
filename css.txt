@@ -1,0 +1,18 @@
+grid  格子布局 
+grid-cols-12 一行有12个格子
+gap-5 格子之间的距离
+col-span-2  大小占几个格子
+
+mx-auto 居中对齐
+px-10 水平填充
+max-w-7xl 最大宽度  
+
+w-8 宽 
+h-8 高
+my y轴填充
+mx
+ml
+mt
+w-min 最小宽度
+
+space-y-4  子元素之间的空间
