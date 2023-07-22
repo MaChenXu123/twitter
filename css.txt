@@ -3,6 +3,13 @@ grid-cols-12 一行有12个格子
 gap-5 格子之间的距离
 col-span-2  大小占几个格子
 
+
+flex 开启flex
+flex-wrap 开启换行
+flex-row  行
+flex-col 列
+
+
 mx-auto 居中对齐
 px-10 水平填充
 max-w-7xl 最大宽度  
